@@ -1,0 +1,147 @@
+@import url("fonts/Roboto.css");
+@import url("fonts/RobotoFlex.css");
+
+body {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    margin: 64px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 80px;
+    background-color: #000000 ;
+    color: #ffffff;
+    font-size: 20px;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.25) 1px, transparent 1px);
+    background-size: 16px 16px;
+    background-attachment: fixed;
+    min-width: 280px;
+}
+p {
+
+}
+h1 {
+    font-family: 'Roboto Flex',sans-serif;
+    font-stretch: 120%;
+    font-weight: 400;
+    font-size: calc(48px + 44 * ((100vw - 768px) / 1152));
+    margin-bottom: 0px;
+}
+h2 {
+    font-family: 'Roboto Flex',sans-serif;
+    font-stretch: 120%;
+    font-weight: 400;
+    margin-bottom: 12px;
+    font-size: calc(18px + 44 * ((100vw - 768px) / 1152));
+}
+.left {
+    text-align: left;
+    width: 50%;
+}
+.right {
+    text-align: left;
+    margin-left: 50%;
+    width: 50%;
+}
+.tw {
+    width: 33% !important;
+}
+#headerbar {
+    margin: -64px;
+    margin-top: -120px;
+    position: sticky;
+    top: 16px;
+    background: transparent;
+    border-bottom: 0px white solid;
+    width: 100%;
+    padding: 32px 128px;
+    font-family: 'Roboto Flex',sans-serif;
+    font-stretch: 120%;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    mix-blend-mode: difference;
+
+    margin-bottom: 64px;
+    transition: font-size 0.1s, padding 0.1s;
+}
+.card {
+    background-color: white;
+    flex: 100%;
+    padding: 32px;
+    margin: 8px;
+    border-radius: 16px;
+    text-align: center;
+    font-family: 'Roboto Mono',sans-serif;
+    font-stretch: 120%;
+    font-weight: 400;
+    font-size: 24px;
+}
+.card-tp {
+    flex: 100%;
+    padding: 32px;
+    margin: 8px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center !important;
+    margin-bottom: 32px;
+    background-color: #00000000;
+    border: 2px white solid;
+
+}
+.footer {
+    width: 100%;
+    padding: 0px;
+    border-radius: 0px;
+    margin: -32px;
+    margin-top: 16px;
+    text-align: center;
+    font-family: 'Roboto Mono',sans-serif;
+    font-stretch: 120%;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    mix-blend-mode: difference;
+}
+.nobr {
+    display: inline-block;
+}
+.3q {
+    width: 75%;
+}
+img {
+    mix-blend-mode: normal !important;
+}
+.links {
+    text-align: center;
+    display: block;
+    justify-content: center !important;
+    transform: translate(0,0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 32px 64px;
+    font-weight: 400;
+    
+}
+a {
+    margin: 4px;
+    color: unset;
+    text-decoration: none;
+    border-radius: 0px;
+    /*transition: background 0.1s, color 0.1s;*/
+    padding: 0;
+}
+span {
+    margin: 4px;
+}
+a:hover {
+
+    border-bottom: solid 4px #dabaff;
+}
+a:active {
+    color: #a64dff;
+    border-bottom: solid 4px #a64dff;
+}
