@@ -1,2 +1,3 @@
-# this is my funny website
+![the website](/img/readme-heading.gif)
+
 bon appetit
